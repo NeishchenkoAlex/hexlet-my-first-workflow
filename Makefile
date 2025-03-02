@@ -1,2 +1,4 @@
 say-hello:
-	uv run hi.py
+	echo "Hello, World!"
+
+.PHONY: say-hello
